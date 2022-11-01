@@ -1,0 +1,7 @@
+.website {
+  grid-area: website;
+  align-self: end;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
