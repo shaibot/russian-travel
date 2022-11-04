@@ -4,6 +4,5 @@
     font-weight: 400;
     text-align: center;
     margin: 16px auto 32px;
-    width: 640px;    
-    font-style: normal;
+    max-width: 640px;
 }
