@@ -1,0 +1,9 @@
+.place__item {
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: repeat(2, auto);
+  grid-template-areas:
+  "title website"
+  "image paragraphs";
+  gap: 48px 40px;
+}
