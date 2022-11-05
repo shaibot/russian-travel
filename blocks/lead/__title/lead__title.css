@@ -4,27 +4,15 @@
     font-weight: 900;
     text-align: center;
     max-width: 720px;
-    margin: 0 auto 16px;
+    margin: 0 auto 32px;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 752px) {
   .lead__title {
-    max-width: 720px;
+    max-width: calc(100vw - 16px * 2);
+    font-size: 40px;
+    line-height: 44px;
     margin-bottom: 16px;
   }
 }
 
-@media screen and (max-width: 984px) {
-  .lead__title {
-    max-width: 720px;
-  }
-}
-
-@media screen and (max-width: 568px) {
-  .lead__title {
-    max-width: 288px;
-    font-size: 40px;
-    line-height: 44px;
-    margin-bottom: 8px;
-  }
-}
