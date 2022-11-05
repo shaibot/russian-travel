@@ -4,3 +4,10 @@ display: flex;
 flex-direction: column;
 gap: 26px;
 }
+
+@media screen and (max-width: 568px) {
+  .place__paragraphs {
+    max-width: 288px;
+    margin: 0 16px 0;
+  }
+}

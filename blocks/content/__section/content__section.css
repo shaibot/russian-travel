@@ -6,5 +6,18 @@
 @media screen and (max-width: 1124px) {
     .content__section {
         padding: 0;
+        margin: 48px auto 92px;
     }
+}
+
+@media screen and (max-width: 968px) {
+  .content__section {
+    margin: 56px auto 88px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .content__section {
+    margin-bottom: 64px;
+  }
 }
