@@ -1,8 +1,16 @@
 .cover__item {
-    display: flex;
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+  display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    z-index: 1;
+
+
+
+
+    /* justify-content: center;
     min-height: 740px;
     color: #fff;
     text-decoration: none;
@@ -13,10 +21,10 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    z-index: 1;
+    z-index: 1;*/
     }
 
-@media screen and (max-width: 1124px) {
+/* @media screen and (max-width: 1124px) {
     .cover__item {
         min-height: 640px;
     }
@@ -49,4 +57,4 @@
 
     .cover__item:hover::before {
         opacity: .8;
-    }
+    } */
