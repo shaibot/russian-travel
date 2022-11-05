@@ -12,6 +12,7 @@
     font-family: 'Inter', Arial, sans-serif;
     text-rendering: optimizeLegibility;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1124px) {
