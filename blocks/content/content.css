@@ -2,26 +2,27 @@
     display: grid;
     grid-row-gap: 92px;
     box-sizing: border-box;
-    margin: 56px auto 92px;
+    padding: 56px 0 92px;
+    max-width: 1184px;
+
 }
 
 @media screen and (max-width: 1124px) {
   .content {
-      padding: 0;
-      margin: 48px auto 92px;
+      padding-top: 48px;
   }
 }
 
 @media screen and (max-width: 984px) {
-    .content {
-        grid-row-gap: 88px;
-        margin: 56px auto 88px;
-    }
+  .content {
+    grid-row-gap: 88px;
+    padding: 56px 0 88px;
+  }
 }
 
 @media screen and (max-width: 568px) {
-    .content {
-        grid-row-gap: 64px;
-        margin-bottom: 64px;
-    }
+  .content {
+    grid-row-gap: 64px;
+    padding-bottom: 64px;
+  }
 }
