@@ -7,15 +7,15 @@
   text-align: left;
 }
 
-@media screen and (max-width: 752px) {
+@media screen and (max-width: 768px) {
   .intro__text {
-    max-width: calc(100vw - 16px * 2);
+    padding: 0 16px;
   }
 }
 
 @media screen and (max-width: 568px) {
   .intro__text {
-    font-size: 32px;
-    line-height: 35px;
+    font-size: 16px;
+    line-height: 26px;
   }
 }
