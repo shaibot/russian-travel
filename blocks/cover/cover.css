@@ -1,15 +1,15 @@
 .cover {
-width: 100%;
-display: grid;
-grid-template-columns: 1fr;
-align-items: center;
-background-image: url(../../images/sprint-3-images/cover-trains.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-min-height: 740px;
-margin: 0 auto 92px;
-position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  background-image: url(../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 740px;
+  margin: 0 auto 92px;
+  position: relative;
 }
 
 .cover::before {
@@ -21,7 +21,6 @@ position: relative;
   left: 0;
   bottom: 0;
   right: 0;
-  /* z-index: -1; */
   transition: opacity 0.5s;
 }
 
@@ -33,12 +32,13 @@ position: relative;
   .cover {
     min-height: calc(100vw / 1.6);
   }
-  }
+}
 
 @media screen and (max-width: 768px) {
   .cover {
     margin-bottom: 88px;
   }
+
   .cover:hover::before {
     opacity: .8;
   }
