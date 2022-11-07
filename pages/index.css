@@ -62,3 +62,5 @@
 
 /*hover*/
 @import url(../blocks/hover/hover.css);
+
+*{outline: 1px solid red;}
