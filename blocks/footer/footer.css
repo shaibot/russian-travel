@@ -31,6 +31,6 @@
     flex-direction: column;
     gap: 48px;
     margin-left: 16px;
-    max-width: 186px;
+    /* max-width: 186px; */
   }
 }

@@ -2,8 +2,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.63;
-  grid-area: paragraph;
-  margin: 0;
+  margin: 0 0 26px;
+}
+.place__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 984px) {
@@ -12,8 +14,9 @@
   }
 }
 
-@media screen and (max-width: 587px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
-    padding: 0 16px;
+    max-width: calc(100vw - 16px * 2);
+    margin: 0 auto 24px;
   }
 }

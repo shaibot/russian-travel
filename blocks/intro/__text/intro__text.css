@@ -7,10 +7,10 @@
   text-align: left;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .intro__text {
     font-size: 16px;
     line-height: 26px;
-    padding: 0 16px;
+    max-width: calc(100vw - 16px * 2);
   }
 }
