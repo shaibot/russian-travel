@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (max-width: 777px) {
+@media screen and (max-width: 754px) {
   .place__item {
     max-width: 100vw;
     gap: 32px;
